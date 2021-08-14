@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MKB</string>
+    <string name="request_uid">563B4852-6D4B-49D6-A86E-B273DD520FD2</string>
+    <string name="request_type">ExchangeRates</string>
+    <string name="request_rid">BEYkZbmV</string>
+    <string name="download_data">загрузка данных</string>
+</resources>
