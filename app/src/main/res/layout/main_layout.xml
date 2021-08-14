@@ -27,14 +27,14 @@
             <com.google.android.material.textview.MaterialTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Код ответа: "
-                android:textSize="24sp" />
+                android:text="@string/response_code"
+                android:textSize="@dimen/title_text_size"/>
 
             <com.google.android.material.textview.MaterialTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@{Integer.toString(responseData.code)}"
-                android:textSize="24sp" />
+                android:textSize="@dimen/title_text_size" />
         </LinearLayout>
 
         <LinearLayout
@@ -48,15 +48,15 @@
             <com.google.android.material.textview.MaterialTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Дата и время загрузки: "
-                android:textSize="24sp" />
+                android:text="@string/date_of_download"
+                android:textSize="@dimen/title_text_size" />
 
             <com.google.android.material.textview.MaterialTextView
-                android:layout_marginLeft="20dp"
+                android:layout_marginStart="@dimen/margin20"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@{responseData.downloadDate}"
-                android:textSize="24sp" />
+                android:textSize="@dimen/title_text_size" />
         </LinearLayout>
 
         <androidx.recyclerview.widget.RecyclerView
@@ -79,15 +79,15 @@
             <com.google.android.material.textview.MaterialTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Дата и время изменения курса: "
-                android:textSize="24sp" />
+                android:text="@string/date_of_change_rates"
+                android:textSize="@dimen/title_text_size" />
 
             <com.google.android.material.textview.MaterialTextView
-                android:layout_marginLeft="20dp"
+                android:layout_marginStart="@dimen/margin20"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@{responseData.ratesDate}"
-                android:textSize="24sp" />
+                android:textSize="@dimen/title_text_size" />
         </LinearLayout>
 
         <com.google.android.material.button.MaterialButton
@@ -95,7 +95,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Обновить данные"
+            android:text="@string/update_data"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"/>

@@ -4,4 +4,11 @@
     <string name="request_type">ExchangeRates</string>
     <string name="request_rid">BEYkZbmV</string>
     <string name="download_data">загрузка данных</string>
+    <string name="response_code">Код ответа:</string>
+    <string name="date_of_download">Дата и время загрузки:</string>
+    <string name="date_of_change_rates">Дата и время изменения курса:</string>
+    <string name="update_data">Обновить данные</string>
+    <string name="title_currency">Валюта:</string>
+    <string name="title_buy">Цена покупки:</string>
+    <string name="title_sale">Цена продажи:</string>
 </resources>
